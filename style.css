@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
+
 body{
 height: 100vh;
 width: 100%;
 background-image: url("");
 background-repeat: no-repeat;
-background-position:fixed ;
+background-position:fixed;
 background-attachment:scroll;
 background-color: bisque;
-background-size:100% 100%;
+background-size:cover;
 overflow: hidden;
+
 }
 
 .main container{
@@ -73,8 +75,8 @@ h1{
         75%{color:darkgreen}
         100%{color:maroon}
     }
-       
     
+
     .diwalidiyatextleft{
         margin-top: 30px;
         align-items: center;
@@ -89,9 +91,10 @@ h1{
     }
     
     h2 {
-        text-align: center;
+    text-align: center;
     word-spacing: 10px;
     font-size: 2em;
+    margin-bottom: 90px;
     font-weight: 600;
      animation: spanimation 1s ease-in-out infinite;
     }
@@ -103,7 +106,7 @@ h1{
         place-content: left;
         place-content: relative;
     }
-  
+    
  
   
     .moving-diya1{
@@ -181,6 +184,7 @@ from {left: 0px;}
 to {left:1500px;}
 }
 
+
     @keyframes spanimation {
         from {
             text-shadow: 0px 0px 50px rgb(165, 62, 22), 0px 0px 20px rgb(165, 62, 22),
@@ -202,3 +206,4 @@ to {left:1500px;}
       float: right;
     }
 
+    
