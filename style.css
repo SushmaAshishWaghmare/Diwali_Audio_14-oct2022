@@ -8,13 +8,16 @@
 body{
 height: 100vh;
 width: 100%;
-background-image: url("");
+background-image: url("Fkas.gif");
 background-repeat: no-repeat;
-background-position:fixed;
-background-attachment:scroll;
-background-color: bisque;
 background-size:cover;
-overflow: hidden;
+background-position:auto;
+background-attachment:scroll;
+background-color: peachpuff
+
+
+
+
 
 }
 
@@ -79,7 +82,6 @@ h1{
 
     .diwalidiyatextleft{
         margin-top: 30px;
-        align-items: center;
         width: 80px;
         height: 80px;
     }
@@ -93,8 +95,9 @@ h1{
     h2 {
     text-align: center;
     word-spacing: 10px;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 90px;
+    margin-top: 80px;
     font-weight: 600;
      animation: spanimation 1s ease-in-out infinite;
     }
@@ -116,7 +119,7 @@ h1{
         height: 120px;
         position: relative;
     animation: mymove 10s infinite;
-    animation-timing-function: linear;
+    animation-timing-function: absolute;
   }
   
   @keyframes mymove {
@@ -206,4 +209,8 @@ to {left:1500px;}
       float: right;
     }
 
+    
+@media (min-width : 650px) {h1
+    
+}
     
